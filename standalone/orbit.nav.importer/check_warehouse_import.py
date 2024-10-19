@@ -13,7 +13,7 @@ This script demonstrates how to use the rigid objects class.
 import argparse
 
 # omni-isaac-orbit
-from omni.isaac.orbit.app import AppLauncher
+from omni.isaac.lab.app import AppLauncher
 
 # add argparse arguments
 parser = argparse.ArgumentParser(description="This script demonstrates how to use the camera sensor.")
@@ -29,19 +29,19 @@ simulation_app = app_launcher.app
 
 import os
 
-import omni.isaac.orbit.sim as sim_utils
-from omni.isaac.orbit.assets import ArticulationCfg, AssetBaseCfg
-from omni.isaac.orbit.scene import InteractiveScene, InteractiveSceneCfg
-from omni.isaac.orbit.sensors import CameraCfg
-from omni.isaac.orbit.sim import SimulationContext
-from omni.isaac.orbit.utils import configclass
+import omni.isaac.lab.sim as sim_utils
+from omni.isaac.lab.assets import ArticulationCfg, AssetBaseCfg
+from omni.isaac.lab.scene import InteractiveScene, InteractiveSceneCfg
+from omni.isaac.lab.sensors import CameraCfg
+from omni.isaac.lab.sim import SimulationContext
+from omni.isaac.lab.utils import configclass
 from orbit.nav.importer.importer import UnRealImporterCfg
 from orbit.nav.importer.sensors import DATA_DIR
 
 ##
 # Pre-defined configs
 ##
-from omni.isaac.orbit_assets.anymal import ANYMAL_C_CFG  # isort: skip
+from omni.isaac.lab_assets.anymal import ANYMAL_C_CFG  # isort: skip
 
 """
 Environment Configuration
