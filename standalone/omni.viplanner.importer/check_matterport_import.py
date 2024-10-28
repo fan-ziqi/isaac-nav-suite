@@ -48,8 +48,8 @@ from omni.isaac.lab_assets.anymal import ANYMAL_C_CFG  # isort: skip
 Environment Configuration
 """
 
-USD_PATH = "/home/ubuntu/workspaces/viplanner_ws/viplanner/files/matterport/matterport_non_metric.usd"
-PLY_PATH = "/home/ubuntu/workspaces/viplanner_ws/viplanner/files/matterport/matterport.ply"
+USD_PATH = ""
+PLY_PATH = ""
 
 
 @configclass

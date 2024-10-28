@@ -49,7 +49,7 @@ from omni.isaac.lab_assets.anymal import ANYMAL_C_CFG  # isort: skip
 Environment Configuration
 """
 
-USD_PATH = "/home/ubuntu/workspaces/viplanner_ws/viplanner/files/carla_export/carla.usd"
+USD_PATH = ""
 
 
 @configclass

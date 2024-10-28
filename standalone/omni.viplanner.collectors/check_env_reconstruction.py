@@ -34,7 +34,7 @@ from omni.viplanner.collectors.utils.environment3d_reconstruction_cfg import (
     ReconstructionCfg,
 )
 
-SAVE_PATH = "/home/ubuntu/workspaces/viplanner_ws/imperative_learning/data/temp1"
+SAVE_PATH = ""
 
 if __name__ == "__main__":
     cfg = ReconstructionCfg()
