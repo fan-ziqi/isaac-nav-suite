@@ -9,7 +9,7 @@ from omni.viplanner.importer.importer import UnRealImporterCfg
 from omni.viplanner.importer.sensors import DATA_DIR
 
 
-USD_PATH = "/home/ubuntu/workspaces/viplanner_ws/viplanner/files/carla_export/carla.usd"
+USD_PATH = ""
 
 @configclass
 class CarlaSceneCfg(InteractiveSceneCfg):

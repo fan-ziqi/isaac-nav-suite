@@ -80,6 +80,8 @@ Not all parameters are included in the GUI, so changes in the files will be nece
 Standalone scripts can be used to custmize the functionalities and easily integrate different parts of the extensions for your own projects.
 Here we provide a set of examples that demonstrate how to use the different parts:
 
+**You need to serch and modify the `USD_PATH`, `PLY_PATH` and `SAVE_PATH` in the code. All require an absolute path.**
+
 - ``omni.viplanner.importer``
   - [Import a Matterport3D Environment](standalone/omni.viplanner.importer/check_matterport_import.py)
   - [Import a Carla (Unreal Engine) Environment](standalone/omni.viplanner.importer/check_carla_import.py)

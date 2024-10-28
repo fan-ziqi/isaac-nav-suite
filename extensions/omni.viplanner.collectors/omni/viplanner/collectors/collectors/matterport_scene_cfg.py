@@ -10,8 +10,8 @@ from omni.viplanner.importer.importer import MatterportImporterCfg
 from omni.viplanner.importer.sensors import VIPlannerMatterportRayCasterCameraCfg
 
 
-USD_PATH = "/home/ubuntu/workspaces/viplanner_ws/viplanner/files/matterport/matterport_non_metric.usd"
-PLY_PATH = "/home/ubuntu/workspaces/viplanner_ws/viplanner/files/matterport/matterport.ply"
+USD_PATH = ""
+PLY_PATH = ""
 
 
 @configclass

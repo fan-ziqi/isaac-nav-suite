@@ -32,7 +32,7 @@ from omni.isaac.lab.sim import SimulationContext
 from omni.viplanner.collectors.collectors import ViewpointSampling, ViewpointSamplingCfg
 from omni.viplanner.collectors.collectors import MatterportSceneCfg
 
-SAVE_PATH = "/home/ubuntu/workspaces/viplanner_ws/imperative_learning/data/temp1"
+SAVE_PATH = ""
 
 """
 Main

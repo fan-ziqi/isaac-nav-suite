@@ -33,7 +33,7 @@ from omni.viplanner.collectors.collectors import ViewpointSampling, ViewpointSam
 from omni.viplanner.collectors.collectors import CarlaSceneCfg
 from omni.viplanner.collectors.configs import CarlaSemanticCostMapping
 
-SAVE_PATH = "/home/ubuntu/workspaces/viplanner_ws/imperative_learning/data/temp"
+SAVE_PATH = ""
 
 """
 Main
