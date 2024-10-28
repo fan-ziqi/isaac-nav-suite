@@ -1,0 +1,48 @@
+# Copyright (c) 2023-2024, ETH Zurich (Robotics Systems Lab)
+# Author: Pascal Roth
+# All rights reserved.
+#
+# SPDX-License-Identifier: BSD-3-Clause
+
+void:              static
+wall:              wall
+floor:             floor
+chair:             furniture
+door:              door
+table:             furniture
+picture:           wall
+cabinet:           furniture
+cushion:           furniture
+window:            wall
+sofa:              furniture
+bed:               furniture
+curtain:           wall
+chest_of_drawers:  furniture
+plant:             vegetation
+sink:              furniture
+stairs:            stairs
+ceiling:           ceiling
+toilet:            furniture
+stool:             furniture
+towel:             indoor_soft
+mirror:            wall
+tv_monitor:        wall
+shower:            furniture
+column:            wall
+bathtub:           furniture
+counter:           furniture
+fireplace:         furniture
+lighting:          static
+beam:              furniture
+railing:           wall
+shelving:          wall
+blinds:            wall
+gym_equipment:     furniture
+seating:           furniture
+board_panel:       wall
+furniture:         furniture
+appliances:        dynamic
+clothes:           indoor_soft
+objects:           static
+misc:              static
+unlabeled:         static
