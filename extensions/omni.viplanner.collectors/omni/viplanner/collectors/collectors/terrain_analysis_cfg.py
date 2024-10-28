@@ -7,7 +7,6 @@
 from __future__ import annotations
 
 from omni.isaac.lab.utils import configclass
-from omni.viplanner.collectors.configs import MatterportSemanticCostMapping
 
 
 @configclass
@@ -40,7 +39,7 @@ class TerrainAnalysisCfg:
     viz_graph: bool = True
     """Visualize the graph after the construction for a short amount of time."""
 
-    semantic_cost_mapping: object | None = MatterportSemanticCostMapping()
+    semantic_cost_mapping: object | None = None
     """Mapping of semantic categories to costs for filtering edges and nodes"""
     semantic_cost_threshold: float = 0.5
     """Threshold for semantic cost filtering"""

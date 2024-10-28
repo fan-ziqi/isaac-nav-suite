@@ -31,6 +31,7 @@ import omni.isaac.lab.sim as sim_utils
 from omni.isaac.lab.sim import SimulationContext
 from omni.viplanner.collectors.collectors import ViewpointSampling, ViewpointSamplingCfg
 from omni.viplanner.collectors.collectors import MatterportSceneCfg
+from omni.viplanner.collectors.configs import MatterportSemanticCostMapping
 
 SAVE_PATH = ""
 
@@ -47,6 +48,7 @@ def main():
 
     cfg = ViewpointSamplingCfg()
     cfg.exploration_scene = MatterportSceneCfg(args_cli.num_envs, env_spacing=1.0)
+    cfg.terrain_analysis.semantic_cost_mapping = MatterportSemanticCostMapping()
     cfg.save_path = SAVE_PATH
 
     explorer = ViewpointSampling(cfg)
