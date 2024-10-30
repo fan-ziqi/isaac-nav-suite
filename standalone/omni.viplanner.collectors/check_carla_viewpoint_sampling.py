@@ -1,5 +1,5 @@
 # Copyright (c) 2024 ETH Zurich (Robotic Systems Lab)
-# Author: Pascal Roth
+# Author: Pascal Roth, Ziqi Fan
 # All rights reserved.
 #
 # SPDX-License-Identifier: BSD-3-Clause
@@ -29,8 +29,11 @@ simulation_app = app_launcher.app
 """Rest everything follows."""
 import omni.isaac.lab.sim as sim_utils
 from omni.isaac.lab.sim import SimulationContext
-from omni.viplanner.collectors.collectors import ViewpointSampling, ViewpointSamplingCfg
-from omni.viplanner.collectors.collectors import CarlaSceneCfg
+from omni.viplanner.collectors.collectors import (
+    CarlaSceneCfg,
+    ViewpointSampling,
+    ViewpointSamplingCfg,
+)
 from omni.viplanner.collectors.configs import CarlaSemanticCostMapping
 
 SAVE_PATH = ""
@@ -65,7 +68,7 @@ def main():
     print("[INFO]: Setup complete...")
 
     # sample and render viewpoints
-    samples = explorer.sample_viewpoints(9560)
+    samples = explorer.sample_viewpoints(5000)
     explorer.render_viewpoints(samples)
     print(
         "[INFO]: Viewpoints sampled and rendered will continue to render the environment and visualize the last camera"

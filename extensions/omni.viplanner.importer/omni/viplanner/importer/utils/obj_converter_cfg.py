@@ -1,12 +1,10 @@
 # Copyright (c) 2024 ETH Zurich (Robotic Systems Lab)
-# Author: Pascal Roth
+# Author: Pascal Roth, Ziqi Fan
 # All rights reserved.
 #
 # SPDX-License-Identifier: BSD-3-Clause
 
-from omni.isaac.lab.sim.converters.asset_converter_base_cfg import (
-    AssetConverterBaseCfg,
-)
+from omni.isaac.lab.sim.converters.asset_converter_base_cfg import AssetConverterBaseCfg
 from omni.isaac.lab.utils import configclass
 
 

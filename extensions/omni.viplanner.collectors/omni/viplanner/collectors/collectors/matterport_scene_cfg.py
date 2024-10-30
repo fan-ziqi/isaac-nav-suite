@@ -1,14 +1,10 @@
-
-
 import omni.isaac.lab.sim as sim_utils
-
 from omni.isaac.lab.assets import AssetBaseCfg, RigidObjectCfg
 from omni.isaac.lab.scene import InteractiveSceneCfg
 from omni.isaac.lab.sensors import patterns
 from omni.isaac.lab.utils import configclass
 from omni.viplanner.importer.importer import MatterportImporterCfg
 from omni.viplanner.importer.sensors import VIPlannerMatterportRayCasterCameraCfg
-
 
 USD_PATH = ""
 PLY_PATH = ""

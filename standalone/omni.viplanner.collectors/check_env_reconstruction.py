@@ -1,5 +1,5 @@
 # Copyright (c) 2024 ETH Zurich (Robotic Systems Lab)
-# Author: Pascal Roth
+# Author: Pascal Roth, Ziqi Fan
 # All rights reserved.
 #
 # SPDX-License-Identifier: BSD-3-Clause
@@ -34,11 +34,11 @@ from omni.viplanner.collectors.utils.environment3d_reconstruction_cfg import (
     ReconstructionCfg,
 )
 
-SAVE_PATH = ""
+DATA_DIR = "/home/ubuntu/workspaces/viplanner_ws/viplanner_data/training_dataset/town01"
 
 if __name__ == "__main__":
     cfg = ReconstructionCfg()
-    cfg.data_dir = SAVE_PATH
+    cfg.data_dir = DATA_DIR
 
     # start depth reconstruction
     depth_constructor = EnvironmentReconstruction(cfg)

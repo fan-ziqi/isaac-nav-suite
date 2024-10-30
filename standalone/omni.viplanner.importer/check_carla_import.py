@@ -1,5 +1,5 @@
 # Copyright (c) 2024 ETH Zurich (Robotic Systems Lab)
-# Author: Pascal Roth
+# Author: Pascal Roth, Ziqi Fan
 # All rights reserved.
 #
 # SPDX-License-Identifier: BSD-3-Clause
@@ -36,7 +36,6 @@ from omni.isaac.lab.scene import InteractiveScene, InteractiveSceneCfg
 from omni.isaac.lab.sensors import CameraCfg
 from omni.isaac.lab.sim import SimulationContext
 from omni.isaac.lab.utils import configclass
-from omni.isaac.lab.terrains import TerrainImporterCfg
 from omni.viplanner.importer.importer import UnRealImporterCfg
 from omni.viplanner.importer.sensors import DATA_DIR
 

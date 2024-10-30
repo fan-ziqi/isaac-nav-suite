@@ -1,5 +1,5 @@
 # Copyright (c) 2024 ETH Zurich (Robotic Systems Lab)
-# Author: Pascal Roth
+# Author: Pascal Roth, Ziqi Fan
 # All rights reserved.
 #
 # SPDX-License-Identifier: BSD-3-Clause
@@ -28,7 +28,7 @@ class ReconstructionCfg:
     """Name of the semantic camera in the scene used to render the semantic images. Default is 'camera_0'."""
 
     # reconstruction parameters
-    voxel_size: float = 0.05
+    voxel_size: float = 0.1
     """Voxel size for the environment reconstruction in meters.
 
     The voxel size determines the resolution of the reconstructed 3D environment. For Matterport scenes,

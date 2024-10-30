@@ -1,5 +1,5 @@
-# Copyright (c) 2023-2024, ETH Zurich (Robotics Systems Lab)
-# Author: Pascal Roth
+# Copyright (c) 2024 ETH Zurich (Robotic Systems Lab)
+# Author: Pascal Roth, Ziqi Fan
 # All rights reserved.
 #
 # SPDX-License-Identifier: BSD-3-Clause

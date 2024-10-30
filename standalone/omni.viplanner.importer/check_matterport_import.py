@@ -1,5 +1,5 @@
 # Copyright (c) 2024 ETH Zurich (Robotic Systems Lab)
-# Author: Pascal Roth
+# Author: Pascal Roth, Ziqi Fan
 # All rights reserved.
 #
 # SPDX-License-Identifier: BSD-3-Clause
@@ -35,8 +35,8 @@ from omni.isaac.lab.sim import SimulationContext
 from omni.isaac.lab.utils import configclass
 from omni.viplanner.importer.importer import MatterportImporterCfg
 from omni.viplanner.importer.sensors import (
-    VIPlannerMatterportRayCasterCameraCfg,
     MatterportRayCasterCfg,
+    VIPlannerMatterportRayCasterCameraCfg,
 )
 
 ##

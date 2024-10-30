@@ -1,5 +1,5 @@
 # Copyright (c) 2024 ETH Zurich (Robotic Systems Lab)
-# Author: Pascal Roth
+# Author: Pascal Roth, Ziqi Fan
 # All rights reserved.
 #
 # SPDX-License-Identifier: BSD-3-Clause
@@ -29,8 +29,11 @@ simulation_app = app_launcher.app
 """Rest everything follows."""
 import omni.isaac.lab.sim as sim_utils
 from omni.isaac.lab.sim import SimulationContext
-from omni.viplanner.collectors.collectors import ViewpointSampling, ViewpointSamplingCfg
-from omni.viplanner.collectors.collectors import MatterportSceneCfg
+from omni.viplanner.collectors.collectors import (
+    MatterportSceneCfg,
+    ViewpointSampling,
+    ViewpointSamplingCfg,
+)
 from omni.viplanner.collectors.configs import MatterportSemanticCostMapping
 
 SAVE_PATH = ""

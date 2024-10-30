@@ -1,8 +1,8 @@
-# Copyright (c) 2024 ETH Zurich (Robotic Systems Lab)
-# Author: Pascal Roth
+# Copyright (c) 2024 Ziqi Fan
+# Author: Ziqi Fan
 # All rights reserved.
 #
-# SPDX-License-Identifier: BSD-3-Clause
+# SPDX-License-Identifier: Apache-2.0
 
 from omni.isaac.lab.sensors.ray_caster import RayCasterCameraCfg
 from omni.isaac.lab.utils import configclass

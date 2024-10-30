@@ -1,5 +1,5 @@
 # Copyright (c) 2024 ETH Zurich (Robotic Systems Lab)
-# Author: Pascal Roth
+# Author: Pascal Roth, Ziqi Fan
 # All rights reserved.
 #
 # SPDX-License-Identifier: BSD-3-Clause
@@ -16,7 +16,10 @@ import yaml
 from omni.isaac.core.utils.semantics import add_update_semantics, remove_all_semantics
 from omni.isaac.lab.terrains import TerrainImporter
 from omni.isaac.lab.utils.assets import ISAAC_NUCLEUS_DIR
-from omni.viplanner.importer.utils.prims import get_all_prims_including_str, get_mesh_prims
+from omni.viplanner.importer.utils.prims import (
+    get_all_prims_including_str,
+    get_mesh_prims,
+)
 from pxr import Gf, UsdGeom
 
 if TYPE_CHECKING:

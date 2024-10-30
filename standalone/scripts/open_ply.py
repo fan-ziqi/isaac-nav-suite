@@ -1,5 +1,12 @@
-import open3d as o3d
+# Copyright (c) 2024 Ziqi Fan
+# Author: Ziqi Fan
+# All rights reserved.
+#
+# SPDX-License-Identifier: Apache-2.0
+
 import sys
+
+import open3d as o3d
 
 if __name__ == "__main__":
     if len(sys.argv) != 2:

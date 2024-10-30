@@ -1,5 +1,5 @@
 # Copyright (c) 2024 ETH Zurich (Robotic Systems Lab)
-# Author: Pascal Roth
+# Author: Pascal Roth, Ziqi Fan
 # All rights reserved.
 #
 # SPDX-License-Identifier: BSD-3-Clause
@@ -7,7 +7,6 @@
 import omni.isaac.lab.sim as sim_utils
 import torch
 from omni.isaac.lab.scene import InteractiveSceneCfg
-from omni.isaac.lab.sensors import patterns
 from omni.isaac.lab.utils import configclass
 
 from .terrain_analysis_cfg import TerrainAnalysisCfg

@@ -1,5 +1,5 @@
 # Copyright (c) 2024 ETH Zurich (Robotic Systems Lab)
-# Author: Pascal Roth
+# Author: Pascal Roth, Ziqi Fan
 # All rights reserved.
 #
 # SPDX-License-Identifier: BSD-3-Clause
@@ -20,7 +20,10 @@ from omni.isaac.lab.sensors import RayCaster, RayCasterCamera
 from omni.isaac.lab.sim import SimulationContext
 from omni.isaac.lab.utils.warp import raycast_mesh
 from omni.physx import get_physx_scene_query_interface
-from omni.viplanner.importer.sensors import MatterportRayCaster, MatterportRayCasterCamera
+from omni.viplanner.importer.sensors import (
+    MatterportRayCaster,
+    MatterportRayCasterCamera,
+)
 from omni.viplanner.importer.utils.prims import get_all_meshes
 from pxr import Gf, Usd, UsdGeom
 from scipy.spatial import KDTree
