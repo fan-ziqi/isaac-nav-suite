@@ -5,7 +5,7 @@ from omni.isaac.lab.assets import AssetBaseCfg
 from omni.isaac.lab.scene import InteractiveSceneCfg
 from omni.isaac.lab.utils import configclass
 from omni.viplanner.importer.importer import UnRealImporterCfg
-from omni.viplanner.importer.sensors import DATA_DIR, CarlaCameraCfg
+from omni.viplanner.importer.sensors import DATA_DIR, VIPlannerCarlaCameraCfg
 
 USD_PATH = ""
 
@@ -33,12 +33,12 @@ class CarlaSceneCfg(InteractiveSceneCfg):
         people_config_file=os.path.join(DATA_DIR, "unreal", "town01", "people_cfg.yml"),
     )
     # camera
-    camera_0 = CarlaCameraCfg(
+    camera_0 = VIPlannerCarlaCameraCfg(
         prim_path="{ENV_REGEX_NS}/sem_cam",
         update_period=0,
         data_types=["semantic_segmentation"],
         debug_vis=True,
-        offset=CarlaCameraCfg.OffsetCfg(
+        offset=VIPlannerCarlaCameraCfg.OffsetCfg(
             pos=(0.419, -0.025, -0.020), rot=(0.992, 0.008, 0.127, 0.001), convention="world"
         ),
         height=720,
@@ -49,12 +49,12 @@ class CarlaSceneCfg(InteractiveSceneCfg):
         ),
         colorize_semantic_segmentation=False,
     )
-    camera_1 = CarlaCameraCfg(
+    camera_1 = VIPlannerCarlaCameraCfg(
         prim_path="{ENV_REGEX_NS}/depth_cam",
         update_period=0,
         data_types=["distance_to_image_plane"],
         debug_vis=False,
-        offset=CarlaCameraCfg.OffsetCfg(
+        offset=VIPlannerCarlaCameraCfg.OffsetCfg(
             pos=(0.419, -0.025, -0.020), rot=(0.992, 0.008, 0.127, 0.001), convention="world"
         ),
         height=480,
